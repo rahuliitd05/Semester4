@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CVL100 Resources</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="../Assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>CVL100 - ENVIRONMENTAL SCIENCE</h1>
+      <a href="../index.html">← Back to Home</a>
+    </header>
+
+    <main class="resource-sections">
+      <!-- Books Section -->
+      <section>
+        <h2>📚 Books</h2>
+        <ul></ul>
+      </section>
+
+      <!-- Notes Section -->
+      <section>
+        <h2>📝 Lecture Notes</h2>
+        <ul>
+          <li>
+            <a
+              href="https://pub-d0e1b7b3b6284ae8a1f3cae9b83e0c16.r2.dev/CVL100/CVL%20100%20Merged%20lectures.pdf"
+              target="_blank"
+              >Merged Lectures</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- Tutorials Section -->
+      <section>
+        <h2>📘 Tutorials</h2>
+      </section>
+
+      <!-- Practical Section -->
+      <section>
+        <h2>🔧 Practical</h2>
+        <ul></ul>
+      </section>
+
+      <!-- PYQs Section -->
+      <section>
+        <h2>📄 Previous Year Questions (PYQs)</h2>
+        <ul></ul>
+      </section>
+
+      <section>
+        <h2>🧰 Extra Resources</h2>
+      </section>
+    </main>
+    <script>
+      // Apply saved theme from localStorage
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark");
+      }
+    </script>
+  </body>
+</html>

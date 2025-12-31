@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semester 4 Resources</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./Assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Prevent flash of wrong theme
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">AcadHub</span>
+        </a>
+        <button
+          id="toggle-theme"
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+        >
+          <span class="theme-icon sun">☀️</span>
+          <span class="theme-icon moon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">Semester 4 • 2025</div>
+        <h1 class="hero-title">
+          Welcome to the<br /><span class="gradient-text">Resource Hub</span>
+        </h1>
+        <p class="hero-subtitle">
+          Your one-stop destination for notes, assignments, books, and more.
+          Select a course below to get started.
+        </p>
+      </div>
+      <div class="hero-decoration">
+        <div class="hero-circle circle-1"></div>
+        <div class="hero-circle circle-2"></div>
+        <div class="hero-circle circle-3"></div>
+      </div>
+    </header>
+
+    <!-- Previous Semester Section -->
+    <section class="courses-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="section-icon">📁</span>
+          Previous Semester Resources
+        </h2>
+        <p class="section-description">Access materials from last semester</p>
+      </div>
+      <main class="course-grid">
+        <a href="./CVL100/cvl100.html" class="course-card">
+          <div class="card-icon">🌿</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL100</h3>
+            <p class="card-subtitle">Environmental Science</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL222/cvl222.html" class="course-card">
+          <div class="card-icon">🏗️</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL222</h3>
+            <p class="card-subtitle">Soil Mechanics</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL242/cvl242.html" class="course-card">
+          <div class="card-icon">🔩</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL242</h3>
+            <p class="card-subtitle">Structural Analysis</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL261/cvl261.html" class="course-card">
+          <div class="card-icon">🛣️</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL261</h3>
+            <p class="card-subtitle">Transportation Eng.</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL281/cvl281.html" class="course-card">
+          <div class="card-icon">🌊</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL281</h3>
+            <p class="card-subtitle">Hydraulics</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+      </main>
+    </section>
+
+    <!-- Current Semester Section -->
+    <section class="courses-section current-semester">
+      <div class="section-header">
+        <span class="new-badge">New</span>
+        <h2 class="section-title">
+          <span class="section-icon">✨</span>
+          Current Semester Resources
+        </h2>
+        <p class="section-description">Fresh materials for this semester</p>
+      </div>
+      <main class="course-grid">
+        <a href="./CVL100 New/index.html" class="course-card featured">
+          <div class="card-icon">🌿</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL100</h3>
+            <p class="card-subtitle">Environmental Science</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL222 New/index.html" class="course-card featured">
+          <div class="card-icon">🏗️</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL222</h3>
+            <p class="card-subtitle">Soil Mechanics</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL242 New/index.html" class="course-card featured">
+          <div class="card-icon">🔩</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL242</h3>
+            <p class="card-subtitle">Structural Analysis</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL261 New/index.html" class="course-card featured">
+          <div class="card-icon">🛣️</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL261</h3>
+            <p class="card-subtitle">Transportation Eng.</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+        <a href="./CVL281 New/index.html" class="course-card featured">
+          <div class="card-icon">🌊</div>
+          <div class="card-content">
+            <h3 class="card-title">CVL281</h3>
+            <p class="card-subtitle">Hydraulics</p>
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+      </main>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <div class="footer-logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">AcadHub</span>
+          </div>
+          <p class="footer-description">
+            Your one-stop destination for semester resources and materials.
+            Built with care for students.
+          </p>
+        </div>
+
+        <div class="footer-section contact">
+          <h3 class="footer-heading">Contact</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">👤</span>
+              <span>Rahul Kumar</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>+91 6207079074</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <a href="mailto:ce1240049@iitd.ac.in" class="footer-link"
+                >ce1240049@iitd.ac.in</a
+              >
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🏠</span>
+              <span>Aravali House</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💼</span>
+              <a
+                href="https://www.linkedin.com/in/rahul-kumar-iitd/"
+                target="_blank"
+                class="footer-link"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📸</span>
+              <a
+                href="https://www.instagram.com/rahul_kumar87127/"
+                target="_blank"
+                class="footer-link"
+                >Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h3 class="footer-heading">Quick Links</h3>
+          <div class="quick-links">
+            <a
+              href="https://wa.me/916207079074"
+              target="_blank"
+              class="footer-link"
+            >
+              <span>💬</span> Report Issue
+            </a>
+            <a
+              href="https://github.com/rahuliitd05/Semester3"
+              target="_blank"
+              class="footer-link"
+            >
+              <span>🔗</span> Contribute
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="copyright">
+            &copy; 2025 Academic Resources Hub. Made with ❤️ for friends.
+          </p>
+          <p class="last-updated">Last updated: December 31, 2025</p>
+          <p id="visit-counter" class="visit-counter">
+            👀 Total Visits: Loading...
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    // Theme toggle
+    const toggleBtn = document.getElementById("toggle-theme");
+    const html = document.documentElement;
+    const body = document.body;
+
+    // Initialize theme
+    function initTheme() {
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "dark") {
+        html.classList.add("dark");
+        body.classList.add("dark");
+      } else {
+        html.classList.remove("dark");
+        body.classList.remove("dark");
+      }
+    }
+
+    initTheme();
+
+    toggleBtn.addEventListener("click", () => {
+      const isDark = html.classList.toggle("dark");
+      body.classList.toggle("dark");
+
+      if (isDark) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    });
+
+    // Visit Counter (CounterAPI)
+    fetch("https://api.counterapi.dev/v1/rahuliitd05/semester4/up")
+      .then((res) => res.json())
+      .then((res) => {
+        document.getElementById("visit-counter").innerText =
+          "👀 Total Visits: " + res.count;
+      })
+      .catch((err) => {
+        console.error("Visit counter error:", err);
+        document.getElementById("visit-counter").innerText =
+          "👀 Total Visits: N/A";
+      });
+
+    // Animate cards on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px",
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animate-in");
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll(".course-card").forEach((card) => {
+      observer.observe(card);
+    });
+  </script>
+</html>
